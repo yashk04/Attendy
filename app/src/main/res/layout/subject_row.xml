@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/subject1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ce Database Management Systems Th"
+                    android:textColor="@color/trueBlack"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/subject2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Practical"
+                    android:textColor="@color/darkGray"
+                    android:orientation="vertical"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/percent1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="end"
+                android:layout_gravity="center_horizontal"
+                android:text="89.34%"
+                android:textColor="@color/trueBlack"
+                android:textSize="22sp">
+
+            </TextView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/backgroundGray" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
